@@ -1,1 +1,50 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# If you're using PostgreSQL
+*.pgsql
+
+# Environments #
+.env
+*.env
+
+# Python #
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.bak
+*.swp
+
+# Virtualenv #
 .venv
+venv/
+env/
+ENV/
+*.envrc
+pip-log.txt
+
+# VS Code #
+.vscode/
+.history/
+
+# macOS #
+.DS_Store
+
+# IDEs #
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node.js (if applicable) #
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
